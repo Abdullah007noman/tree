@@ -3,7 +3,7 @@ In this repository I have implemented differtent types of tree ,such as:
  * The basic Binary Search Tree
  *  Red Black Tree
  *  AVL Tree
-## The basic Binary Search Tree
+# The basic Binary Search Tree
 This repository contains a simple, yet comprehensive implementation of a Binary Search Tree (BST) data structure in Python. This implementation focuses on clarity and correctness rather than advanced optimizations.
 ## Features
 * Basic BST operations (insert, search, delete)
@@ -53,3 +53,4 @@ print(bst.inorder_traversal())  # [20, 30, 40, 50, 70]
 bst.delete(30)
 print(bst.inorder_traversal())  # [20, 40, 50, 70]
 ```
+# Red Black Tree

@@ -12,11 +12,11 @@ This repository contains a simple, yet comprehensive implementation of a Binary 
 * BST property validation
 * Comprehensive test suite
 
-  ## Implementation Details
+## Implementation Details
 The implementation consists of two main classes:
   * Node: Represents a single node in the tree with a value and references to left and right children
   * BinarySearchTree: The main BST class that contains all the operations
-  ## Limitations
+## Limitations
 This is a basic BST implementation with the following limitations:
 
 * Not self-balancing (can become unbalanced with certain insertion orders)

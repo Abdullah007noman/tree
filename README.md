@@ -16,12 +16,7 @@ This repository contains a simple, yet comprehensive implementation of a Binary 
 The implementation consists of two main classes:
   * Node: Represents a single node in the tree with a value and references to left and right children
   * BinarySearchTree: The main BST class that contains all the operations
-## Limitations
-This is a basic BST implementation with the following limitations:
 
-* Not self-balancing (can become unbalanced with certain insertion orders)
-* No duplicate handling strategy (currently, duplicates go to the right subtree)
-* Integer values only (can be easily modified for other comparable types)
 ## Usage Example
 ``` python
 from bst import BinarySearchTree
@@ -61,7 +56,7 @@ A complete implementation of an AVL (Adelson-Velsky and Landis) tree data struct
  * Visualization: Built-in display method to visualize the tree structure with heights
  * Comprehensive Testing: Includes test cases to verify all operations.
 
-## Usage
+## Usage Example
 ``` python
 from avl_tree import AVLTree
 

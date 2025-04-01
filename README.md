@@ -58,7 +58,6 @@ This repository also contains a complete implementation of a Red-Black Tree (RBT
  * Every path from a node to its descendant leaves contains the same number of black nodes.
 ## Usage Example
 ``` python
-from red_black_tree import RedBlackTree  # Assuming the code is in red_black_tree.py
 
 # Create a new Red-Black Tree
 tree = RedBlackTree()

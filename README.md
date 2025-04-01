@@ -19,8 +19,6 @@ The implementation consists of two main classes:
 
 ## Usage Example
 ``` python
-from bst import BinarySearchTree
-
 # Create a new BST
 bst = BinarySearchTree()
 
@@ -107,8 +105,6 @@ A complete implementation of an AVL (Adelson-Velsky and Landis) tree data struct
 
 ## Usage Example
 ``` python
-from avl_tree import AVLTree
-
 # Create a new AVL Tree
 avl = AVLTree()
 

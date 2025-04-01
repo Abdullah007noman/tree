@@ -23,7 +23,7 @@ This is a basic BST implementation with the following limitations:
 * No duplicate handling strategy (currently, duplicates go to the right subtree)
 * Integer values only (can be easily modified for other comparable types)
 ## Usage Example
-'''
+```
 from bst import BinarySearchTree
 
 # Create a new BST
@@ -52,4 +52,4 @@ print(bst.inorder_traversal())  # [20, 30, 40, 50, 70]
 # Delete a value
 bst.delete(30)
 print(bst.inorder_traversal())  # [20, 40, 50, 70]
-'''
+```

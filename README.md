@@ -53,4 +53,39 @@ print(bst.inorder_traversal())  # [20, 30, 40, 50, 70]
 bst.delete(30)
 print(bst.inorder_traversal())  # [20, 40, 50, 70]
 ```
-# Red Black Tree
+# AVL Tree
+A complete implementation of an AVL (Adelson-Velsky and Landis) tree data structure, which is a self-balancing binary search tree where the heights of the two child subtrees of any node differ by at most one.
+## Features
+ * Self-Balancing: Automatically maintains balance via rotations after insertions and deletions
+ * Complete Operations: Includes insert, delete, search, and traversal methods
+ * Visualization: Built-in display method to visualize the tree structure with heights
+ * Comprehensive Testing: Includes test cases to verify all operations.
+
+## Usage
+``` python
+from avl_tree import AVLTree
+
+# Create a new AVL Tree
+avl = AVLTree()
+
+# Insert elements
+avl.insert(10)
+avl.insert(20)
+avl.insert(30)
+
+# Display the tree structure
+avl.display()
+
+# Search for an element
+node = avl.search(20)
+if node:
+    print(f"Found node with key {node.key}")
+
+# Get an in-order traversal (sorted)
+sorted_elements = avl.inorder()
+print(sorted_elements)  # [10, 20, 30]
+
+# Delete an element
+avl.delete(20)
+
+``` 
